@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.head_1 {
+    position: relative;
+}
+
+.head_1 p {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hide {
+    display: none !important;
+}
+
+.head_1 figure img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.head_1 p:hover {
+    color: gray;
+}
+
+.header_top {
+    width: 100%;
+    padding: 15px 25px;
+    background-color: rgb(209, 35, 35);
+}
+
+.btn_2 {
+    width: 80px;
+    height: 30px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(209, 35, 35);
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+.btn_2:hover {
+    opacity: 0.7;
+}
+
+.btn_3 {
+    width: 200px;
+}
+
+.head_left a {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0 0 0 20px;
+    transition: 0.4s ease;
+}
+
+.head_left a:hover {
+    opacity: 0.7;
+}
+
+.head_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.tel {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.tel:hover {
+    opacity: 0.7;
+}
+
+.lang_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.lang_1 a {
+    font-size: 20px;
+    color: lightgray;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.header_top_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.head_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn_1 {
+    width: 120px;
+    height: 30px;
+    font-size: 17px;
+    color: rgb(209, 35, 35);
+    border-radius: 10px;
+    border: none;
+    transition: 0.4s ease;
+}
+
+.btn_1:hover {
+    opacity: 0.7;
+}
+
+#bef::before {
+    right: 154px;
+}
+
+.header_bottom {
+    padding: 30px 25px;
+}
+
+.header_down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.active {
+    display: block !important;
+}
+
+.icon {
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(209, 35, 35);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.catalog img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.lang_1 a:nth-child(3) {
+    color: white;
+}
+
+.lang_1 a:hover {
+    color: white;
+}
+
+#bef::before,
+#after::after {
+    content: "";
+    display: block;
+    width: 85px;
+    height: 1px;
+    background-color: white;
+    rotate: 90deg;
+    position: absolute;
+}
+
+.catalog:hover {
+    border: 2px solid rgb(209, 35, 35);
+    color: rgb(209, 35, 35);
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    position: relative;
+}
+
+.inp input {
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    padding: 0 10px;
+    border: none;
+    transition: 0.4s ease;
+
+    font-size: 17px;
+}
+
+.days_sale {
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    border: 3px solid rgb(133, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.inp input::placeholder {
+    color: rgb(183, 183, 183);
+}
+
+.inp button {
+    width: 56px;
+    height: 46px;
+    background-color: rgb(209, 35, 35);
+    border-radius: 10px;
+    border: none;
+    transition: 0.4s ease;
+    position: absolute;
+    right: 2px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.inp button:hover {
+    width: 60px;
+    height: 50px;
+}
+
+.inp button img {
+    width: 30px;
+    height: 30px;
+}
+
+.days_sale a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.4s ease;
+    text-decoration: none;
+}   
+
+.toolbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tools img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.tools p {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.tools p:hover {
+    color: rgb(209, 35, 35);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 25px 40px;
+}
+
+.price {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0;
+}
+
+.main_img {
+    width: 70%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.days_sale_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.time {
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.time div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.days_sale img {
+    width: 70%;
+    margin: 10px 50px;
+}
+
+.days_sale a:hover {
+    color: rgb(144, 144, 144);
+}
+
+.price p {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.price div {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: gold;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0;
+}
+
+
+
+
+
+
+
+
+
+.container_secc_1 {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    margin: 0 0 100px;
+    align-items: center;
+    justify-content: center;
+    grid-auto-rows: 100px;
+    gap: 10px;
+  }
+  .container_secc_1 div {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .sec_2 {
+    background: url(./img/footer_img.png) no-repeat center / cover;
+  }
+  .sec_3 {
+    background: url(./img/footer_img2.png) no-repeat center / cover;
+  }
+  .sec_4 {
+    background: url(./img/footer_img3.png) no-repeat center / cover;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+
